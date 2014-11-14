@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB83651F-6754-49D3-B9A2-B13FC317C7DB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "vienevNext", "src\vienevNext\vienevNext.kproj", "{7E53E7F1-7BB5-4D29-92BD-EC82D1863520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C67ECEC9-7761-4E1B-A54F-7792ADD00FFC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E53E7F1-7BB5-4D29-92BD-EC82D1863520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E53E7F1-7BB5-4D29-92BD-EC82D1863520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E53E7F1-7BB5-4D29-92BD-EC82D1863520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E53E7F1-7BB5-4D29-92BD-EC82D1863520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E53E7F1-7BB5-4D29-92BD-EC82D1863520} = {AB83651F-6754-49D3-B9A2-B13FC317C7DB}
+	EndGlobalSection
+EndGlobal

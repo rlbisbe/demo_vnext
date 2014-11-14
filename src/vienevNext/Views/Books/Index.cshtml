@@ -1,0 +1,13 @@
+﻿@model List<WebApplication1.Models.Book>
+@{
+    ViewBag.Title = "Books";
+}
+
+<h2>Books</h2>
+<a href="/books.json">Web API</a>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li><h4>@item.Title</h4>@item.Year - @item.Author</li>
+    }
+</ul>

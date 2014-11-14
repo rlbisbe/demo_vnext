@@ -1,0 +1,12 @@
+﻿@model IEnumerable<WebApplication1.Models.Book>
+@{
+    ViewBag.Title = "Books";
+}
+
+<h2>Books</h2>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li><h4>@item.Title</h4>@item.Year - @item.Author</li>
+    }
+</ul>
