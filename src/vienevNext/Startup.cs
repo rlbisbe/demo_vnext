@@ -37,8 +37,9 @@ namespace WebApplication1
 
 
             //Configure dependency injection
-            services.AddSingleton<IBookRepository, BookRepository>();
-
+            services.AddTransient<IBookRepository, BookRepository>(); //Transient, una instancia a la vez
+            services.AddSingleton<IMessageLogger, MessageLogger>(); //Singleton, una única instancia
+            services.AddInstance(Configuration); //Instance, una instancia específica
         }
 
         // Configure is called after ConfigureServices is called.
