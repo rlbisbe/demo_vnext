@@ -27,5 +27,11 @@ namespace WebApplication1.Controllers
         {
             return View(_books);
         }
+
+        [HttpGet("[controller]/{id:int}.json")]
+        public IActionResult GetById(int id)
+        {
+            return new ObjectResult(_books[id]);
+        }
     }
 }
